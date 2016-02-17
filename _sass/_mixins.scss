@@ -1,0 +1,13 @@
+@mixin flexbox() {
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+@mixin flex($attrs) {
+    -moz-box-flex: $attrs;
+    -ms-flex: $attrs;
+    -webkit-flex: $attrs;
+    flex: $attrs;
+}
