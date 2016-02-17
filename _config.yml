@@ -1,0 +1,18 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: "Josh Rucker, Software Engineer"
+email: ifiamblue@gmail.com
+description: "I’m a software engineer at Interactive Intelligence in Durham, NC. This site is a collection of thoughts on web development, life, and the things that happen in between."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://jrrucker.github.io" # the base hostname & protocol for your site
+twitter_username: ifiamblue
+github_username:  jrrucker
+
+# Build settings
+markdown: kramdown

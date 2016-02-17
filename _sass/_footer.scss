@@ -1,0 +1,25 @@
+.site-footer {
+    padding: 2em 0;
+    margin-top: 2em;
+    border-top: 1px solid $accent-gray;
+    font-family: $sans;
+    font-size: .8em;
+    text-align: center;
+
+    p {
+        margin-bottom: 1em;
+    }
+
+    ul li{
+        display: inline-block;
+        margin: 0 .4em;
+    }
+
+    nav a {
+        font-size: 1.4em;
+        color: #666;
+        &:hover {
+            color: $accent-med-gray;
+        }
+    }
+}

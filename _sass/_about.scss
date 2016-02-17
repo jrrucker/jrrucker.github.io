@@ -1,0 +1,20 @@
+.about {
+
+    display: flex;
+    align-items: center;
+
+    img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        flex: 0 0;
+    }
+
+    p {
+        font-style: italic;
+        font-size: 1.1em;
+        line-height: 1.6em;
+        flex: 1 1;
+        margin-left: 2em;
+    }
+}

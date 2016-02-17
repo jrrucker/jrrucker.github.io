@@ -1,0 +1,24 @@
+.site-header {
+    padding: 2em 0;
+    margin-bottom: 2em;
+    border-bottom: 1px solid $accent-gray;
+    font-family: $sans;
+    font-size: .8em;
+
+    nav {
+        margin-left: 6px;
+    }
+
+    ul li {
+        display: inline-block;
+        margin-right: 2em;
+    }
+
+    a {
+        color: $primary-text-color;
+        &:hover {
+            color: $primary-red;
+            text-decoration: none;
+        }
+    }
+}
