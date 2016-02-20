@@ -14,3 +14,7 @@ In 2009, I left ITECS to take a full-time consulting role for a small startup ca
 I returned to NC State in 2011 hoping to improve upon the web experiences that haunted me for the better part of a decade. I was named the senior web developer in November of 2012. In March 2014, I left NC State to take my current position at Interactive Intelligence.
 
 When I’m not at work, I spend my time with wife and cats. I enjoy photography and spending way too much time in movie theaters.
+
+<div class="about-img">
+    <img src="../img/me.jpg" alt="Me" />
+</div>
