@@ -1,19 +1,23 @@
 .about {
 
-    @include flexbox();
-    align-items: center;
-
-    img {
-        width: 120px;
-        height: 120px;
-        border-radius: 50%;
-        @include flex(0 0 120px);
-    }
+    margin: 3em 0;
 
     p {
+        color: #333;
         font-style: italic;
         line-height: 1.4em;
-        @include flex(1 1);
-        margin-left: 2em;
+    }
+
+}
+
+.about-img {
+    text-align: center;
+    margin: 3em 0;
+
+    img{
+        border-radius: 50%;
+        display: inline-block;
+        max-width: 100px;
+        text-align: center;
     }
 }

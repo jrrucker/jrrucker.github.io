@@ -1,6 +1,6 @@
 .site-footer {
-    padding: 2em 0;
-    margin-top: 2em;
+    padding: 3em 0;
+    margin-top: 3em;
     border-top: 1px solid $accent-gray;
     font-family: $sans;
     font-size: .8em;
@@ -17,9 +17,9 @@
 
     nav a {
         font-size: 1.4em;
-        color: #666;
+        color: #999;
         &:hover {
-            color: $accent-med-gray;
+            color: $primary-red;
         }
     }
 }

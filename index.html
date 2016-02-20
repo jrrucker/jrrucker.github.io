@@ -4,22 +4,26 @@ layout: default
 
 {% include about.html %}
 
-<div class="home">
+<div class="posts-home">
 
-  <!--
-  <h1 class="page-heading">Posts</h1>
+    <h1 class="page-heading sr-only">Posts</h1>
 
-  <ul class="post-list">
     {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
+        <hr class="divider" />
+
+        <div class="post post-excerpt">
+
+            <h2 class="post-title">
+                <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+
+            <p class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</p>
+
+            <p>{{ post.excerpt }}&nbsp;<a href="{{ post.url | prepend: site.baseurl }}">Read&nbsp;more&nbsp;&raquo;</a></p>
+
+        </div>
+
     {% endfor %}
-  </ul>
-  -->
 
 </div>

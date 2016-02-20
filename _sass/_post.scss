@@ -3,11 +3,38 @@
     .post-title {
         font-family: $sans;
         font-weight: bold;
-        margin: 2em 0;
+        font-size: 1.4rem;
+        line-height: 1.4em;
+        margin: 0;
+        text-align: center;
+
+        a {
+            color: $primary-text-color;
+            &:hover {
+                color: #c00;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .post-header {
+        margin: 3em 0 2em 0;
+    }
+
+    .post-meta {
+        text-align: center;
+        font-style: italic;
+        font-size: .8em;
+        margin: 0;
+        color: #999;
+        margin-bottom: 2em;
     }
 
     p {
         margin: 1em 0;
+        font-size: .9em;
+        line-height: 1.4em;
     }
 
 }
+

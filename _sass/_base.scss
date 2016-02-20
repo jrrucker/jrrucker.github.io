@@ -73,7 +73,7 @@ html {
 
 body {
     font-family: $serif;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.4em;
     color: $primary-text-color;
 }
@@ -92,4 +92,16 @@ a {
     overflow: hidden;
     position: absolute !important;
     width: 1px;
+}
+
+hr.divider {
+    margin: 3em auto;
+    width: 28%;
+    border: 0;
+    text-align: center;
+    &:after {
+        content: "★★★";
+        letter-spacing: .5em;
+        font-size: .7em;
+    }
 }
