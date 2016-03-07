@@ -3,6 +3,7 @@ layout: slide
 title:  "Slide Deck: Inspiring Institutional Creativity"
 date:   2015-08-15 10:00:00 -0500
 excerpt: "A talk from Refresh the Triangle: Why do web developers and designers love their job? When do they stop? How can we keep them engaged and inspired? It’s about more than just the work."
+type: slidedeck
 ---
 
 <section>
