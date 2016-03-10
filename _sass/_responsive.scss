@@ -9,8 +9,8 @@
 
         padding: 1em 0;
 
-        ul li {
-            margin-right: 1em;
+        ul li:after {
+            margin: 0 .5em;
         }
     }
 
