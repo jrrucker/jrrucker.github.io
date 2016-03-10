@@ -4,9 +4,8 @@
         font-family: $sans;
         font-weight: bold;
         font-size: 1.4rem;
-        line-height: 1.4em;
-        margin: 0;
-        text-align: center;
+        line-height: 1.2em;
+        margin: 0 0 .2em 0;
 
         a {
             color: $primary-text-color;
@@ -22,18 +21,21 @@
     }
 
     .post-meta {
-        text-align: center;
         font-style: italic;
         font-size: .8em;
         margin: 0;
         color: #999;
-        margin-bottom: 2em;
+        margin-bottom: 1em;
     }
 
     p {
         margin: 1em 0;
         font-size: .9em;
         line-height: 1.4em;
+    }
+
+    &.post-excerpt {
+        margin: 2em 0;
     }
 
 }

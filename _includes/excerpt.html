@@ -1,0 +1,22 @@
+<div class="post post-excerpt">
+
+    <h2 class="post-title">
+        {% if post.externalUrl %}
+            <a href="{{ post.externalUrl }}" target="_blank">{{ post.title }}</a>
+        {% else %}
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        {% endif %}
+    </h2>
+
+    <p class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</p>
+
+    <p>
+        {{ post.excerpt }}&nbsp;
+        {% if post.externalUrl %}
+            <a href="{{ post.externalUrl }}" target="_blank">Read&nbsp;more&nbsp;&raquo;</a
+        {% else %}
+            <a href="{{ post.url | prepend: site.baseurl }}">Read&nbsp;more&nbsp;&raquo;</a
+        {% endif %}
+    ></p>
+
+</div>

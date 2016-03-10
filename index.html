@@ -6,35 +6,12 @@ layout: default
 
 <div class="posts-home">
 
+    <hr class="divider" />
+
     <h1 class="page-heading sr-only">Posts</h1>
 
     {% for post in site.posts %}
-
-        <hr class="divider" />
-
-        <div class="post post-excerpt">
-
-            <h2 class="post-title">
-                {% if post.type == "podcast" %}
-                    <a href="{{ post.externalUrl }}" target="_blank">{{ post.title }}</a>
-                {% else %}
-                    <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                {% endif %}
-            </h2>
-
-            <p class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</p>
-
-            <p>
-                {{ post.excerpt }}&nbsp;
-                {% if post.type == "podcast" %}
-                    <a href="{{ post.externalUrl }}" target="_blank">Read&nbsp;more&nbsp;&raquo;</a
-                {% else %}
-                    <a href="{{ post.url | prepend: site.baseurl }}">Read&nbsp;more&nbsp;&raquo;</a
-                {% endif %}
-            ></p>
-
-        </div>
-
+        {% include excerpt.html %}
     {% endfor %}
 
 </div>
