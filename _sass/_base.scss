@@ -86,6 +86,14 @@ a {
     }
 }
 
+em {
+    font-style: italic;
+}
+
+strong {
+    font-weight: bold;
+}
+
 .sr-only {
     clip: rect(1px, 1px, 1px, 1px);
     height: 1px;

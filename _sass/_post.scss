@@ -1,5 +1,30 @@
 .post {
 
+    // Post Page
+
+    h2 {
+        font-family: $sans;
+        font-weight: bold;
+        font-size: 1.4rem;
+        margin-top: 1.2em;
+    }
+
+    .post-header {
+        margin: 2em 0 1.5em 0;
+    }
+
+    &.post-page .post-title {
+        font-size: 3rem;
+    }
+
+    // Post Excerpt
+
+    &.post-excerpt {
+        margin: 2em 0;
+    }
+
+    // Shared
+
     .post-title {
         font-family: $sans;
         font-weight: bold;
@@ -16,10 +41,6 @@
         }
     }
 
-    .post-header {
-        margin: 3em 0 2em 0;
-    }
-
     .post-meta {
         font-style: italic;
         font-size: .8em;
@@ -32,10 +53,6 @@
         margin: 1em 0;
         font-size: .9em;
         line-height: 1.4em;
-    }
-
-    &.post-excerpt {
-        margin: 2em 0;
     }
 
 }
