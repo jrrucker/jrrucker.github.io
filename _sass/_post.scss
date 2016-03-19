@@ -1,7 +1,5 @@
 .post {
 
-    // Post Page
-
     h2 {
         font-family: $sans;
         font-weight: bold;
@@ -9,21 +7,15 @@
         margin-top: 1.2em;
     }
 
+    p {
+        margin: 1.4em 0;
+        font-size: 1em;
+        line-height: 1.6em;
+    }
+
     .post-header {
         margin: 2em 0 1.5em 0;
     }
-
-    &.post-page .post-title {
-        font-size: 3rem;
-    }
-
-    // Post Excerpt
-
-    &.post-excerpt {
-        margin: 2em 0;
-    }
-
-    // Shared
 
     .post-title {
         font-family: $sans;
@@ -46,13 +38,33 @@
         font-size: .8em;
         margin: 0;
         color: #999;
-        margin-bottom: 1em;
+        margin-bottom: .6em;
     }
 
+}
+
+// Post Page
+
+.post-page .post {
+
+    .post-title {
+        font-size: 3rem;
+    }
+
+}
+
+// Post Excertp
+
+.post.post-excerpt {
+
+    margin: 3em 0;
+
     p {
-        margin: 1.4em 0;
-        font-size: .9em;
-        line-height: 1.6em;
+        margin: .8em 0;
+    }
+
+    .post-meta {
+        margin: 0;
     }
 
 }
