@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Let's Make A Podcast &mdash; Ep. 1"
+title:  "Let's Make A Podcast Ep. 1 &mdash; Bios, Hiring Developers, Slack, Statamic"
 date:   2016-03-06 10:00:00 -0500
 excerpt: "Josh Mobley, Nick Rigby and I discuss Slack, working remote, hiring developers, and Statmic &mdash; a flat file CMS &mdash; in the inaugural episode of Let's Make a Podcast."
 type: podcast

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Here's the Deal"
+title:  "Medium: Here's the Deal"
 date:   2015-11-03 10:00:00 -0500
 excerpt: "After recently returning from the Southwest, I have decided to chronicle my travels through words and photography on Medium. "
 type: medium
