@@ -7,13 +7,16 @@
         >{{ page.date | date: "%B %-d, %Y" }}</time>
 
         {% if page.author %} //
-            <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-                <span itemprop="name">{{ page.author }}</span>
-            </span>
+            <span>{{ page.author }}</span>
         {% endif %}
     </p>
 </header>
 
-<div class="post-content" itemprop="articleBody">
-    {{ content }}
+<div class="post-content">
+    {% if page.externalUrl %}
+        <p>{{ page.excerpt }}</p>
+        <p><a href="{{page.externalUrl}}">Read this story &raquo;</a></p>
+    {% else %}
+        {{ content }}
+    {% endif %}
 </div>
